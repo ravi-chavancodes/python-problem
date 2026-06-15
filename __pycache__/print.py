@@ -83,3 +83,34 @@ while count <= 5:
     print(count)
     count += 1
     """
+#  pattern 
+"""
+for i in range(5):
+    for j in range(i + 1):
+        print("*", end="")
+    print()
+    """
+
+# string 
+"""
+
+text = "Python"
+
+print(text.upper())
+print(text.lower())
+print(text.replace("Python", "Java"))
+print(len(text))
+
+"""
+
+# list
+"""
+
+fruits = ["Apple", "Banana", "Mango"]
+
+fruits.append("Orange")
+
+print(fruits)
+print(fruits[0])
+
+"""
