@@ -58,3 +58,28 @@ print(a % b)
 print(a ** b)
 print(a // b)
 """
+
+# if else
+
+"""
+age = int(input("Enter age: "))
+
+if age >= 18:
+    print("Eligible")
+else:
+    print("Not Eligible")
+    """
+
+# loop
+
+"""
+
+for i in range(1, 6):
+    print(i)
+
+count = 1
+
+while count <= 5:
+    print(count)
+    count += 1
+    """
