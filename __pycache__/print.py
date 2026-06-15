@@ -114,3 +114,39 @@ print(fruits)
 print(fruits[0])
 
 """
+
+# tuples
+"""
+
+data = (10, 20, 30)
+
+print(data)
+print(data[1])
+"""
+
+# sets
+"""
+
+numbers = {1, 2, 3, 3, 4}
+
+print(numbers)
+"""
+
+# dictonary
+"""
+student = {
+    "name": "Ravi",
+    "age": 21
+}
+
+print(student["name"])
+print(student["age"])
+"""
+
+# function
+"""
+def greet(name):
+    print("Hello", name)
+
+greet("Ravi")
+"""
