@@ -45,7 +45,7 @@ print("Age:", age)
 
 # operator
 
-"""
+
 
 a = 10
 b = 3
@@ -57,7 +57,7 @@ print(a / b)
 print(a % b)
 print(a ** b)
 print(a // b)
-"""
+
 
 # if else
 
@@ -150,3 +150,6 @@ def greet(name):
 
 greet("Ravi")
 """
+
+# variable
+
