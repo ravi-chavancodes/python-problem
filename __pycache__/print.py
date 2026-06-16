@@ -44,11 +44,9 @@ print("Age:", age)
 """
 
 # operator
-
-
-
-a = 40
-b = 20
+"""
+a = 10
+b = 2
 
 print(a + b)
 print(a - b)
@@ -57,7 +55,7 @@ print(a / b)
 print(a % b)
 print(a ** b)
 print(a // b)
-
+"""
 
 # if else
 
@@ -151,5 +149,25 @@ def greet(name):
 greet("Ravi")
 """
 
-# variable
+# relational
+"""
+a = 20
+b = 10
 
+a += 2
+print (a)
+
+b-= 2
+print (b)
+
+"""
+
+# logical
+"""
+a=30
+b=20
+
+c = a > b
+print(bool(c))
+print(not c)
+"""
