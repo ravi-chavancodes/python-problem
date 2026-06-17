@@ -90,8 +90,8 @@ for i in range(5):
     """
 
 # string 
-"""
 
+"""
 text = "Python"
 
 print(text.upper())
@@ -102,7 +102,7 @@ print(len(text))
 """
 
 # list
-"""
+
 
 fruits = ["Apple", "Banana", "Mango"]
 
@@ -111,7 +111,7 @@ fruits.append("Orange")
 print(fruits)
 print(fruits[0])
 
-"""
+
 
 # tuples
 """
