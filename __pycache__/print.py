@@ -103,14 +103,14 @@ print(len(text))
 
 # list
 
-
+"""
 fruits = ["Apple", "Banana", "Mango"]
 
 fruits.append("Orange")
 
 print(fruits)
 print(fruits[0])
-
+"""
 
 
 # tuples
@@ -171,3 +171,22 @@ c = a > b
 print(bool(c))
 print(not c)
 """
+
+# or
+"""
+a = 10
+b= 5
+print(a < 5 or b>2) 
+print (a < 5 or b< 2)
+"""
+
+#bitwise
+
+a = 5
+b = 3
+
+print(a & b)
+print(a | b)
+print(a ^ b)
+
+
