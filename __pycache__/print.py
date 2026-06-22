@@ -181,7 +181,7 @@ print (a < 5 or b< 2)
 """
 
 #bitwise
-
+"""
 a = 5
 b = 3
 
@@ -190,3 +190,6 @@ print(a | b)
 print(a ^ b)
 
 
+"""
+
+#
