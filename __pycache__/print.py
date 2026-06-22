@@ -192,4 +192,41 @@ print(a ^ b)
 
 """
 
-#
+# if els 
+"""
+age = 19
+if age >= 20:
+    print("Eligible for voting")
+else:
+    print("not eligible for voting")
+
+"""
+
+#if-elif-else statement
+#syntax
+"""
+marks = int(input("Enter your marks"))
+marks = 85
+if marks >= 90:
+    print("grade A")
+
+elif marks >= 75:
+    print("Grade B")
+
+elif marks >= 50:
+    print("Grade C")
+
+else:
+ print("fail")
+ """
+
+#nested if-else statement
+
+age = int(input("Enter your age"))
+citizen = input("Enter your citizenship")
+if age >= 20 and citizen:
+    print("Eligible")
+else:
+    print("Not eligible")
+
+
