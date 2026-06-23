@@ -19,7 +19,7 @@ def search_student():
         print(f"{name}'s Marks: {students[name]}")
     else:
         print("Student not found.")
-        
+
 while True:
     print("\n1. Add Student")
     print("2. View Students")

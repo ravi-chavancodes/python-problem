@@ -221,7 +221,7 @@ else:
  """
 
 #nested if-else statement
-
+""""
 age = int(input("Enter your age"))
 citizen = input("Enter your citizenship")
 if age >= 20 and citizen:
@@ -229,4 +229,4 @@ if age >= 20 and citizen:
 else:
     print("Not eligible")
 
-
+"""
