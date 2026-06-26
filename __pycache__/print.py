@@ -267,3 +267,10 @@ for i in numbers:
     for j in numbers:
     print(i, j)
 """
+
+# nested work
+"""
+for i in range(2):
+    for j in range(3):
+        print(i, j)
+        """
