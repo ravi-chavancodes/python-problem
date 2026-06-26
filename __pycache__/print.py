@@ -250,3 +250,11 @@ for i in range(4):
         print("*", end=" ")
     print()
     """
+
+# row and column 
+"""
+for i in range(3):
+    for j in range(3):
+        print(f"({i}, {j})", end=" ")
+    print()
+ """
