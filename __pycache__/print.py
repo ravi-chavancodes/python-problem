@@ -258,3 +258,12 @@ for i in range(3):
         print(f"({i}, {j})", end=" ")
     print()
  """
+
+# every element 
+"""
+numbers = [1, 2, 3]
+
+for i in numbers:
+    for j in numbers:
+    print(i, j)
+"""
