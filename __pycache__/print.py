@@ -270,15 +270,34 @@ for i in numbers:
 
 # nested work
 """
-for i in range(2):
+for i in range(3):
     for j in range(3):
         print(i, j)
-        """
-#
+    """    
 
+# break - it will break the loop when condition is satisfied 
+#continue - it will egnore the value specified in the condtion when the the condition is matched
+"""
+name= "vedant"
+
+for i in name :
+    print (i)
+    """
+
+# pass - it will print nothing when the condition is satisfied
+"""
 name = "vedant"
 
-for i in name:
-    if i == 'd':
-        break
-    print(i)
+for i in name :
+    if i =='e':
+        pass  # print()
+"""
+#
+"""
+price = [100,200,300]
+
+for i in enumerate(price):
+    print (i)
+    """
+
+
