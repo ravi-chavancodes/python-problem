@@ -279,4 +279,6 @@ for i in range(2):
 name = "vedant"
 
 for i in name:
+    if i == 'd':
+        break
     print(i)
