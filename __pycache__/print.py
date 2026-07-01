@@ -480,12 +480,12 @@ for i in range(1, 6):
 # Inverted Triangle
 # Prints an upside-down triangle.
 
-"""
+'''
 for i in range(5, 0, -1):
     for j in range(i):
         print("*", end=" ")
     print()
-"""
+'''
 
 
 # Number Triangle
@@ -523,7 +523,6 @@ for i in range(1, 6):
     print()
 """
 
-
 # Alphabet Triangle
 # Prints alphabets in a triangle pattern.
 
@@ -534,7 +533,6 @@ for i in range(1, 5):
     print()
 """
 
-
 # Multiplication Table
 # Prints a multiplication table from 1 to 5.
 
@@ -542,5 +540,14 @@ for i in range(1, 5):
 for i in range(1, 6):
     for j in range(1, 6):
         print(i * j, end="\t")
-    print()s
+    print()
 """
+
+# simple intrest
+
+def calculate_sip(principal,rate,time):
+
+    intrest = (principal*rate*time)/100
+    return intrest
+result = calculate_sip(1000,7.5,3)
+print(result)
