@@ -544,10 +544,11 @@ for i in range(1, 6):
 """
 
 # simple intrest
-
+"""
 def calculate_sip(principal,rate,time):
 
     intrest = (principal*rate*time)/100
     return intrest
 result = calculate_sip(1000,7.5,3)
 print(result)
+"""
