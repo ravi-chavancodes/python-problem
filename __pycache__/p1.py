@@ -84,7 +84,7 @@ else:
     """
 
 #5 Designing and Implementing a Simple Calculator Application Using Functions and Control Structures
-
+"""
 # Function Definitions
 def add(a, b):
     return a + b
@@ -126,3 +126,19 @@ elif choice == 4:
 
 else:
     print("Invalid Choice")
+    """
+
+#6 Implementing a Program to Convert Temperature Units (Celsius to Fahrenheit) Using Functions
+"""
+# Function to convert Celsius to Fahrenheit
+def celsius_to_fahrenheit(celsius):
+    fahrenheit = (celsius * 9/5) + 32
+    return fahrenheit
+
+# Main Program
+celsius = float(input("Enter temperature in Celsius: "))
+
+fahrenheit = celsius_to_fahrenheit(celsius)
+
+print("Temperature in Fahrenheit =", fahrenheit)
+"""
