@@ -63,6 +63,7 @@ fibonacci(num)
 #4 Program to Find Prime Numbers Using Functions and Loops
 
 # Function to check prime number
+"""
 def is_prime(n):
     if n <= 1:
         return False
@@ -80,3 +81,48 @@ if is_prime(num):
     print(num, "is a Prime Number")
 else:
     print(num, "is Not a Prime Number")
+    """
+
+#5 Designing and Implementing a Simple Calculator Application Using Functions and Control Structures
+
+# Function Definitions
+def add(a, b):
+    return a + b
+
+def subtract(a, b):
+    return a - b
+
+def multiply(a, b):
+    return a * b
+
+def divide(a, b):
+    if b == 0:
+        return "Division by zero is not possible"
+    return a / b
+
+# Main Program
+print("Simple Calculator")
+print("1. Addition")
+print("2. Subtraction")
+print("3. Multiplication")
+print("4. Division")
+
+choice = int(input("Enter your choice (1-4): "))
+
+num1 = float(input("Enter first number: "))
+num2 = float(input("Enter second number: "))
+
+if choice == 1:
+    print("Result =", add(num1, num2))
+
+elif choice == 2:
+    print("Result =", subtract(num1, num2))
+
+elif choice == 3:
+    print("Result =", multiply(num1, num2))
+
+elif choice == 4:
+    print("Result =", divide(num1, num2))
+
+else:
+    print("Invalid Choice")
