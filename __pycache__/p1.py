@@ -59,3 +59,24 @@ def fibonacci(n):
 num = int(input("Enter the number of terms: "))
 fibonacci(num)
 """
+
+#4 Program to Find Prime Numbers Using Functions and Loops
+
+# Function to check prime number
+def is_prime(n):
+    if n <= 1:
+        return False
+
+    for i in range(2, int(n ** 0.5) + 1):
+        if n % i == 0:
+            return False
+
+    return True
+
+# Main Program
+num = int(input("Enter a number: "))
+
+if is_prime(num):
+    print(num, "is a Prime Number")
+else:
+    print(num, "is Not a Prime Number")
