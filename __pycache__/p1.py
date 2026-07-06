@@ -230,3 +230,30 @@ s = Student("Ravi", 101)
 # Calling Method
 s.show()
 """
+
+#11. Polymorphism in Python
+
+"""
+# Parent Class
+class Animal:
+    def sound(self):
+        print("Animal makes a sound")
+
+# Child Class 1
+class Dog(Animal):
+    def sound(self):
+        print("Dog barks")
+
+# Child Class 2
+class Cat(Animal):
+    def sound(self):
+        print("Cat meows")
+
+# Creating Objects
+d = Dog()
+c = Cat()
+
+# Calling Methods
+d.sound()
+c.sound()
+"""
