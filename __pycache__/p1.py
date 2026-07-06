@@ -257,3 +257,21 @@ c = Cat()
 d.sound()
 c.sound()
 """
+
+#12. Encapsulation in Python
+
+"""
+# Class
+class Student:
+    def __init__(self):
+        self.__marks = 90    # Private variable
+
+    def display(self):
+        print("Marks =", self.__marks)
+
+# Creating Object
+s = Student()
+
+# Calling Method
+s.display()
+"""
