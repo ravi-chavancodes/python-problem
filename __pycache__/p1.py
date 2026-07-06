@@ -179,3 +179,26 @@ except ValueError:
 finally:
     print("Program Executed Successfully.")
 """
+
+#9. Object-Oriented Programming (OOP) – Create a Class and Object
+
+"""
+# Class Definition
+class Student:
+
+    # Constructor
+    def __init__(self, name, roll):
+        self.name = name
+        self.roll = roll
+
+    # Method
+    def display(self):
+        print("Student Name:", self.name)
+        print("Roll Number:", self.roll)
+
+# Creating Object
+s1 = Student("Ravi", 101)
+
+# Calling Method
+s1.display()
+"""
