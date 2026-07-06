@@ -142,3 +142,19 @@ fahrenheit = celsius_to_fahrenheit(celsius)
 
 print("Temperature in Fahrenheit =", fahrenheit)
 """
+
+#7. File Handling – Read and Write Data to a File
+
+"""
+# Write data to a file
+file = open("student.txt", "w")
+file.write("Hello World\n")
+file.write("Welcome to Python File Handling")
+file.close()
+
+# Read data from the file
+file = open("student.txt", "r")
+data = file.read()
+print(data)
+file.close()
+"""
