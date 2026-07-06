@@ -202,3 +202,31 @@ s1 = Student("Ravi", 101)
 # Calling Method
 s1.display()
 """
+
+#10. Implementing Inheritance in Python
+
+"""
+# Parent Class
+class Person:
+    def __init__(self, name):
+        self.name = name
+
+    def display(self):
+        print("Name:", self.name)
+
+# Child Class
+class Student(Person):
+    def __init__(self, name, roll):
+        super().__init__(name)
+        self.roll = roll
+
+    def show(self):
+        self.display()
+        print("Roll Number:", self.roll)
+
+# Creating Object
+s = Student("Ravi", 101)
+
+# Calling Method
+s.show()
+"""
