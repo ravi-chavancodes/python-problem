@@ -271,4 +271,22 @@ class Dog(Animal):
 d = Dog()
 d.sound()
 """
-#
+
+# Practical No. 13
+
+# Question: Reading Data from a Text File and Performing Simple Analysis (e.g., Word Count).
+
+# Aim: To write a Python program to read data from a text file and count the number of words.
+
+# Program:
+"""
+file = open("sample.txt", "r")
+
+text = file.read()
+
+words = text.split()
+
+print("Number of words =", len(words))
+
+file.close()
+"""
