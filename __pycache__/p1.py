@@ -194,29 +194,26 @@ print("List:", numbers)
 print("Maximum Element =", max(numbers))
 print("Minimum Element =", min(numbers))
 """
-#9. Object-Oriented Programming (OOP) – Create a Class and Object
 
+# Practical No. 9
+
+# Question: Working with Dictionaries to Store and Retrieve Data Efficiently.
+
+# Aim: To write a Python program to store and retrieve data using a dictionary.
+
+# Program:
 """
-# Class Definition
-class Student:
+student = {
+    "Name": "Ravi",
+    "Roll No": 101,
+    "Marks": 85
+}
 
-    # Constructor
-    def __init__(self, name, roll):
-        self.name = name
-        self.roll = roll
-
-    # Method
-    def display(self):
-        print("Student Name:", self.name)
-        print("Roll Number:", self.roll)
-
-# Creating Object
-s1 = Student("Ravi", 101)
-
-# Calling Method
-s1.display()
+print("Student Details")
+print("Name:", student["Name"])
+print("Roll No:", student["Roll No"])
+print("Marks:", student["Marks"])
 """
-
 #10. Implementing Inheritance in Python
 
 """
