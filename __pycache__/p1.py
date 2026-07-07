@@ -179,27 +179,21 @@ else:
     print(key, "not found in the list")
     """
 
-#8 Exception Handling – Handling Errors Using try, except, and finally
+# Practical No. 8
 
+# Question:Implementing a Program to Find the Maximum and Minimum Elements in a List.
+
+# Aim: To write a Python program to find the maximum and minimum elements in a list.
+
+# Program:
 """
-try:
-    num1 = int(input("Enter first number: "))
-    num2 = int(input("Enter second number: "))
+numbers = [45, 12, 78, 23, 56]
 
-    result = num1 / num2
+print("List:", numbers)
 
-    print("Result =", result)
-
-except ZeroDivisionError:
-    print("Error: Division by zero is not allowed.")
-
-except ValueError:
-    print("Error: Please enter valid numbers.")
-
-finally:
-    print("Program Executed Successfully.")
+print("Maximum Element =", max(numbers))
+print("Minimum Element =", min(numbers))
 """
-
 #9. Object-Oriented Programming (OOP) – Create a Class and Object
 
 """
