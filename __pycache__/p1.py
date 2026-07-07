@@ -214,34 +214,21 @@ print("Name:", student["Name"])
 print("Roll No:", student["Roll No"])
 print("Marks:", student["Marks"])
 """
-#10. Implementing Inheritance in Python
+# Practical No. 10
 
+# Question: Implementing List Comprehensions for Efficient Data Processing.
+
+# Aim: To write a Python program using list comprehension to generate the squares of numbers.
+
+# Program:
 """
-# Parent Class
-class Person:
-    def __init__(self, name):
-        self.name = name
+numbers = [1, 2, 3, 4, 5]
 
-    def display(self):
-        print("Name:", self.name)
+squares = [x * x for x in numbers]
 
-# Child Class
-class Student(Person):
-    def __init__(self, name, roll):
-        super().__init__(name)
-        self.roll = roll
-
-    def show(self):
-        self.display()
-        print("Roll Number:", self.roll)
-
-# Creating Object
-s = Student("Ravi", 101)
-
-# Calling Method
-s.show()
+print("Original List:", numbers)
+print("Squares:", squares)
 """
-
 #11. Polymorphism in Python
 
 """
