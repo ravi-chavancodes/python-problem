@@ -252,22 +252,23 @@ except ValueError:
     print("Error: Invalid input.")
 """
 
-#12. Encapsulation in Python
+# Practical No. 12
 
+# Question:Creating a Basic Class Hierarchy to Demonstrate Object-Oriented Programming Concepts.
+
+# Aim:To write a Python program to demonstrate inheritance using a basic class hierarchy.
+
+# Program:
 """
-# Class
-class Student:
-    def __init__(self):
-        self.__marks = 90    # Private variable
+class Animal:
+    def sound(self):
+        print("Animal makes a sound")
 
-    def display(self):
-        print("Marks =", self.__marks)
+class Dog(Animal):
+    def sound(self):
+        print("Dog barks")
 
-# Creating Object
-s = Student()
-
-# Calling Method
-s.display()
+d = Dog()
+d.sound()
 """
-
 #
