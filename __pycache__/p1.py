@@ -229,31 +229,27 @@ squares = [x * x for x in numbers]
 print("Original List:", numbers)
 print("Squares:", squares)
 """
-#11. Polymorphism in Python
+# Practical No. 11
 
+# Question: Implementing Exception Handling to Handle Errors Gracefully.
+
+# Aim: To write a Python program to handle exceptions using try and except.
+
+# Program:
 """
-# Parent Class
-class Animal:
-    def sound(self):
-        print("Animal makes a sound")
+try:
+    num1 = int(input("Enter first number: "))
+    num2 = int(input("Enter second number: "))
 
-# Child Class 1
-class Dog(Animal):
-    def sound(self):
-        print("Dog barks")
+    result = num1 / num2
 
-# Child Class 2
-class Cat(Animal):
-    def sound(self):
-        print("Cat meows")
+    print("Result =", result)
 
-# Creating Objects
-d = Dog()
-c = Cat()
+except ZeroDivisionError:
+    print("Error: Division by zero is not allowed.")
 
-# Calling Methods
-d.sound()
-c.sound()
+except ValueError:
+    print("Error: Invalid input.")
 """
 
 #12. Encapsulation in Python
