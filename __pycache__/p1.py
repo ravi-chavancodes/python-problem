@@ -16,15 +16,27 @@ print("Modulus =", a % b)
 print("Exponent =", a ** b)
 """
 
-# 2q implementing conditional statements and loops for simple prrogrrams  
-"""
+# Practical No. 2
+
+#Question:
+#Implementing Conditional Statements and Loops for Simple Programs.
+
+#Aim:
+#To write a Python program using conditional statements and loops.
+
+#Program:
+
 num = int(input("Enter a number: "))
 
 if num % 2 == 0:
-    print("Even Number")
+    print(num, "is Even")
 else:
-    print("Odd Number")
-    """
+    print(num, "is Odd")
+
+print("Numbers from 1 to 10 are:")
+
+for i in range(1, 11):
+    print(i)
 
 # 3q - writing functions to perform basic calculations eg - factorial , ffibonacci
 #a.factorial 
@@ -275,3 +287,5 @@ s = Student()
 # Calling Method
 s.display()
 """
+
+#
