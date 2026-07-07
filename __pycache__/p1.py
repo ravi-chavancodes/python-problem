@@ -22,10 +22,10 @@ print("Exponent =", a ** b)
 #Implementing Conditional Statements and Loops for Simple Programs.
 
 #Aim:
-#To write a Python program using conditional statements and loops.
+#To write a Python program using conditional statements and loops. 
 
-#Program:
-
+# Program:
+"""
 num = int(input("Enter a number: "))
 
 if num % 2 == 0:
@@ -37,6 +37,7 @@ print("Numbers from 1 to 10 are:")
 
 for i in range(1, 11):
     print(i)
+"""
 
 # 3q - writing functions to perform basic calculations eg - factorial , ffibonacci
 #a.factorial 
@@ -155,21 +156,28 @@ fahrenheit = celsius_to_fahrenheit(celsius)
 print("Temperature in Fahrenheit =", fahrenheit)
 """
 
-#7. File Handling – Read and Write Data to a File
+# Practical No. 7
 
-"""
-# Write data to a file
-file = open("student.txt", "w")
-file.write("Hello World\n")
-file.write("Welcome to Python File Handling")
-file.close()
+# Question: Creating and Manipulating Lists to Store and Process Data (e.g., Sorting, Searching).
 
-# Read data from the file
-file = open("student.txt", "r")
-data = file.read()
-print(data)
-file.close()
+# Aim: To write a Python program to create a list and perform sorting and searching operations.
+
+# Program:
 """
+numbers = [45, 12, 78, 23, 56]
+
+print("Original List:", numbers)
+
+numbers.sort()
+print("Sorted List:", numbers)
+
+key = int(input("Enter element to search: "))
+
+if key in numbers:
+    print(key, "found in the list")
+else:
+    print(key, "not found in the list")
+    """
 
 #8 Exception Handling – Handling Errors Using try, except, and finally
 
