@@ -552,3 +552,11 @@ def calculate_sip(principal,rate,time):
 result = calculate_sip(1000,7.5,3)
 print(result)
 """
+
+#positional and keyword call
+"""
+def dec_pet(animal_type,pet_name):
+    print(f"i have a {animal_type}named{pet_name}.")
+
+    """
+   
