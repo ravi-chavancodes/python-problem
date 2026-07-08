@@ -561,7 +561,19 @@ def dec_pet(animal_type,pet_name):
     """
    
 # default
+"""
 def greet(animal_type,pet_name="hey"):
     return f"{animal_type},{pet_name}"
 print(greet("amit"))
 print(greet("amit","hello"))
+"""
+
+# *args and kwargs 
+
+def analyze(instruct,*student,**data):
+    print(f"inst:{instruct}")
+    print(f"student tuple:{student}")
+    print(f"datano:{data}")
+
+
+analyze("dr,ji","alice","bob","crcile",romm = 402,subject="py")
