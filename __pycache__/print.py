@@ -569,11 +569,11 @@ print(greet("amit","hello"))
 """
 
 # *args and kwargs 
-
+"""
 def analyze(instruct,*student,**data):
     print(f"inst:{instruct}")
     print(f"student tuple:{student}")
     print(f"datano:{data}")
 
-
 analyze("dr,ji","alice","bob","crcile",romm = 402,subject="py")
+"""
