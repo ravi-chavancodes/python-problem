@@ -594,3 +594,9 @@ if len(pwd) >= 8 and any(c.isdigit() for c in pwd) and any(c.isupper() for c in 
 else:
     print("Weak")
     """
+
+#reverse word
+"""
+text = input().split()
+print(" ".join(word[::-1] for word in text))
+"""
