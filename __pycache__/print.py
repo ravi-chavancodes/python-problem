@@ -600,3 +600,11 @@ else:
 text = input().split()
 print(" ".join(word[::-1] for word in text))
 """
+
+#char freq
+"""
+text = input()
+
+for ch in sorted(set(text)):
+    print(ch, text.count(ch))
+    """
