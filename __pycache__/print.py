@@ -584,3 +584,13 @@ text = input("Enter text: ").lower()
 count = sum(1 for ch in text if ch in "aeiou")
 print("Vowels:", count)
 """
+
+#pass strength
+"""
+pwd = input("Password: ")
+
+if len(pwd) >= 8 and any(c.isdigit() for c in pwd) and any(c.isupper() for c in pwd):
+    print("Strong")
+else:
+    print("Weak")
+    """
