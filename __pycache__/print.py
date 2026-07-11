@@ -577,3 +577,10 @@ def analyze(instruct,*student,**data):
 
 analyze("dr,ji","alice","bob","crcile",romm = 402,subject="py")
 """
+
+#vowel
+"""
+text = input("Enter text: ").lower()
+count = sum(1 for ch in text if ch in "aeiou")
+print("Vowels:", count)
+"""
