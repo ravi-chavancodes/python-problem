@@ -608,3 +608,13 @@ text = input()
 for ch in sorted(set(text)):
     print(ch, text.count(ch))
     """
+
+#def
+
+def get_min_max(numbers_list):
+    minimum = min(numbers_list)
+    maximum = max(numbers_list)
+    
+    return minimum , maximum
+low,high  = get_min_max([23,5,89,49])
+print(f"min : {low},max : {high}")
