@@ -29,3 +29,15 @@ print("Uppercase:", upper)
 print("Lowercase:", lower)
 """
 
+# remove dublicate
+"""
+text = input()
+
+result = ""
+
+for ch in text:
+    if ch not in result:
+        result += ch
+
+print(result)
+"""
