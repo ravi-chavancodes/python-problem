@@ -610,7 +610,7 @@ for ch in sorted(set(text)):
     """
 
 #def
-
+"""
 def get_min_max(numbers_list):
     minimum = min(numbers_list)
     maximum = max(numbers_list)
@@ -618,3 +618,22 @@ def get_min_max(numbers_list):
     return minimum , maximum
 low,high  = get_min_max([23,5,89,49])
 print(f"min : {low},max : {high}")
+"""
+
+#LEGB
+"""
+x= "global x"
+def outer_func():
+    x = "enclosing x"
+def inner_func():
+    global x
+    x = "modified global x"
+inner_func ()
+print("outer : ",x)
+
+outer_func()
+print("global :", x)
+"""
+
+
+    
