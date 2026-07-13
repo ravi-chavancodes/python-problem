@@ -1,5 +1,5 @@
 #Problem: Longest Consecutive Increasing Word
-
+"""
 sentence = input("Enter a sentence: ").split()
 
 best = ""
@@ -16,3 +16,16 @@ for word in sentence:
         best = word
 
 print("Answer:", best if best else "No valid word")
+"""
+
+# upper case lower case
+"""
+text = input("Enter text: ")
+
+upper = sum(c.isupper() for c in text)
+lower = sum(c.islower() for c in text)
+
+print("Uppercase:", upper)
+print("Lowercase:", lower)
+"""
+
