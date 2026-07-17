@@ -1,43 +1,31 @@
-#Problem: Longest Consecutive Increasing Word
 """
-sentence = input("Enter a sentence: ").split()
+Prime Number Checker
 
-best = ""
+This program checks whether a given number is prime or not.
 
-for word in sentence:
-    ok = True
-
-    for i in range(len(word) - 1):
-        if word[i] >= word[i + 1]:
-            ok = False
-            break
-
-    if ok and len(word) > len(best):
-        best = word
-
-print("Answer:", best if best else "No valid word")
+Concepts Covered:
+- Functions
+- Loops
+- Conditional Statements
+- Modulus Operator
 """
 
-# upper case lower case
-"""
-text = input("Enter text: ")
+def is_prime(num):
+    """Returns True if the number is prime, otherwise False."""
 
-upper = sum(c.isupper() for c in text)
-lower = sum(c.islower() for c in text)
+    if num < 2:
+        return False
 
-print("Uppercase:", upper)
-print("Lowercase:", lower)
-"""
+    for i in range(2, int(num ** 0.5) + 1):
+        if num % i == 0:
+            return False
 
-# remove dublicate
-"""
-text = input()
+    return True
 
-result = ""
 
-for ch in text:
-    if ch not in result:
-        result += ch
+number = int(input("Enter a number: "))
 
-print(result)
-"""
+if is_prime(number):
+    print(number, "is Prime")
+else:
+    print(number, "is Not Prime")
