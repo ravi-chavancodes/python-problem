@@ -1,31 +1,13 @@
 """
-Prime Number Checker
+def is_palindrome(text):
 
-This program checks whether a given number is prime or not.
-
-Concepts Covered:
-- Functions
-- Loops
-- Conditional Statements
-- Modulus Operator
-"""
-
-def is_prime(num):
-    """Returns True if the number is prime, otherwise False."""
-
-    if num < 2:
-        return False
-
-    for i in range(2, int(num ** 0.5) + 1):
-        if num % i == 0:
-            return False
-
-    return True
+    return text == text[::-1]
 
 
-number = int(input("Enter a number: "))
+word = input("Enter a word: ").lower()
 
-if is_prime(number):
-    print(number, "is Prime")
+if is_palindrome(word):
+    print("Palindrome")
 else:
-    print(number, "is Not Prime")
+    print("Not Palindrome")
+    """
