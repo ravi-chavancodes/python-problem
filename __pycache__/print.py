@@ -635,5 +635,17 @@ outer_func()
 print("global :", x)
 """
 
+#countdown timer
+"""
+import time
 
-    
+seconds = int(input("Enter seconds: "))
+
+while seconds > 0:
+    print(seconds)
+    time.sleep(1)
+    seconds -= 1
+
+print("Time's Up!")
+"""
+
