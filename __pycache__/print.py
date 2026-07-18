@@ -675,9 +675,9 @@ while True:
         if 0 <= index < len(tasks):
             tasks.pop(index)
 
-    elif choice == "4":
+    elif choice == "4":s
         break
 
     else:
         print("Invalid choice.")
-        """
+        
