@@ -97,8 +97,40 @@ else:
     """
 
 #5 Designing and Implementing a Simple Calculator Application Using Functions and Control Structures
+
+# a.Function Definitions basic calc
 """
-# Function Definitions
+def add(a, b):
+    return a + b
+
+def subtract(a, b):
+    return a - b
+
+def multiply(a, b):
+    return a * b
+
+def divide(a, b):
+    if b == 0:
+        return "Division by zero is not possible"
+    return a / b
+
+num1 = float(input("Enter first number: "))
+num2 = float(input("Enter second number: "))
+
+print("Result =", add(num1, num2))
+
+print("Result =", subtract(num1, num2))
+
+print("Result =", multiply(num1, num2))
+
+print("Result =", divide(num1, num2))
+
+print("Invalid Choice")
+    
+"""
+
+# 5b. menu driven calc
+"""
 def add(a, b):
     return a + b
 
@@ -139,9 +171,14 @@ elif choice == 4:
 
 else:
     print("Invalid Choice")
-    """
+    
+"""
 
-#6 Implementing a Program to Convert Temperature Units (Celsius to Fahrenheit) Using Functions
+#5 c. lamda function calc
+"""
+
+"""
+#6 Implementing a Program to Convert Temperature Units (Celsius to Fahrenheit) Using Functions. # implement (fahrenheit to celsius)
 """
 # Function to convert Celsius to Fahrenheit
 def celsius_to_fahrenheit(celsius):

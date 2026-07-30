@@ -11,3 +11,4 @@ if is_palindrome(word):
 else:
     print("Not Palindrome")
     """
+
