@@ -335,7 +335,7 @@ file.close()
 # Aim: To write a Python program to take user input and save it into a text file.
 
 # Program:
-"""
+""
 text = input("Enter text: ")
 
 file = open("output.txt", "w")
