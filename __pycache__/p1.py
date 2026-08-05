@@ -253,7 +253,7 @@ print("Marks:", student["Marks"])
 """
 # Practical No. 10
 
-# Question: Implementing List Comprehensions for Efficient Data Processing.
+# Question: Implementing List Comprehensions for Efficient Data Processing .
 
 # Aim: To write a Python program using list comprehension to generate the squares of numbers.
 
@@ -335,7 +335,7 @@ file.close()
 # Aim: To write a Python program to take user input and save it into a text file.
 
 # Program:
-""
+"""
 text = input("Enter text: ")
 
 file = open("output.txt", "w")
@@ -346,4 +346,3 @@ file.close()
 
 print("Data saved successfully.")
 """
-
