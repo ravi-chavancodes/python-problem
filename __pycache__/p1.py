@@ -223,14 +223,15 @@ else:
 # Aim: To write a Python program to find the maximum and minimum elements in a list.
 
 # Program:
-"""
+
 numbers = [45, 12, 78, 23, 56]
 
 print("List:", numbers)
 
 print("Maximum Element =", max(numbers))
 print("Minimum Element =", min(numbers))
-"""
+
+
 
 # Practical No. 9
 
@@ -338,7 +339,7 @@ file.close()
 """
 text = input("Enter text: ")
 
-file = open("output.txt", "w")
+file = open("output.txt", "w").    
 
 file.write(text)
 
