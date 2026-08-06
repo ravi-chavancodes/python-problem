@@ -218,20 +218,19 @@ else:
 
 # Practical No. 8
 
-# Question:Implementing a Program to Find the Maximum and Minimum Elements in a List.
+# Question:Implementing a Program to Find the Maximum and Minimum Elements in a List.( with input)
 
 # Aim: To write a Python program to find the maximum and minimum elements in a list.
 
 # Program:
-
+"""
 numbers = [45, 12, 78, 23, 56]
 
 print("List:", numbers)
 
 print("Maximum Element =", max(numbers))
 print("Minimum Element =", min(numbers))
-
-
+"""
 
 # Practical No. 9
 
@@ -336,14 +335,3 @@ file.close()
 # Aim: To write a Python program to take user input and save it into a text file.
 
 # Program:
-"""
-text = input("Enter text: ")
-
-file = open("output.txt", "w").    
-
-file.write(text)
-
-file.close()
-
-print("Data saved successfully.")
-"""
