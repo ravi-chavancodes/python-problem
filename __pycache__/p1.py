@@ -316,7 +316,17 @@ d.sound()
 # Aim: To write a Python program to read data from a text file and count the number of words.
 
 # Program:
+"""
+file = open("sample.txt", "r")
 
+text = file.read()
+
+words = text.split()
+
+print("Number of words =", len(words))
+
+file.close()
+"""
 
 # Practical No. 14
 
