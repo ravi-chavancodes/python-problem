@@ -328,13 +328,7 @@ print("Number of words =", len(words))
 file.close()
 """
 
-# Practical No. 14
 
-# Question: Writing Data to a Text File and Saving User Inputs.
-
-# Aim: To write a Python program to take user input and save it into a text file.
-
-# Program:
 """
 text = input("Enter text: ")
 
