@@ -25,19 +25,7 @@ print("Exponent =", a ** b)
 #To write a Python program using conditional statements and loops. 
 
 # Program:
-"""
-num = int(input("Enter a number: "))
 
-if num % 2 == 0:
-    print(num, "is Even")
-else:
-    print(num, "is Odd")
-
-print("Numbers from 1 to 10 are:")
-
-for i in range(1, 11):
-    print(i)
-"""
 
 # 3q - writing functions to perform basic calculations eg - factorial , ffibonacci
 #a.factorial 
