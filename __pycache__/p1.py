@@ -179,19 +179,6 @@ else:
 
 """
 #6 Implementing a Program to Convert Temperature Units (Celsius to Fahrenheit) Using Functions. # implement (fahrenheit to celsius)
-"""
-# Function to convert Celsius to Fahrenheit
-def celsius_to_fahrenheit(celsius):
-    fahrenheit = (celsius * 9/5) + 32
-    return fahrenheit
-
-# Main Program
-celsius = float(input("Enter temperature in Celsius: "))
-
-fahrenheit = celsius_to_fahrenheit(celsius)
-
-print("Temperature in Fahrenheit =", fahrenheit)
-"""
 
 # Practical No. 7
 
