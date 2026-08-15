@@ -289,7 +289,24 @@ except ValueError:
     print("Error: Invalid input.")
 """
 
+# Practical No. 12
 
+# Question:Creating a Basic Class Hierarchy to Demonstrate Object-Oriented Programming Concepts.
+
+# Aim:To write a Python program to demonstrate inheritance using a basic class hierarchy.
+
+# Program:
+"""
+class Animal:
+    def sound(self):
+        print("Animal makes a sound")
+
+class Dog(Animal):
+    def sound(self):
+        print("Dog barks")
+
+d = Dog()
+d.sound()
 """
 
 # Practical No. 13
