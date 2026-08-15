@@ -193,14 +193,7 @@ fahrenheit = celsius_to_fahrenheit(celsius)
 print("Temperature in Fahrenheit =", fahrenheit)
 """
 
-# Practical No. 7
 
-# Question: Creating and Manipulating Lists to Store and Process Data (e.g., Sorting, Searching).
-
-# Aim: To write a Python program to create a list and perform sorting and searching operations.
-
-# Program:
-"""
 numbers = [45, 12, 78, 23, 56]
 
 print("Original List:", numbers)
