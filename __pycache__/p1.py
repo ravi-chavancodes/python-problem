@@ -251,7 +251,21 @@ print("Name:", student["Name"])
 print("Roll No:", student["Roll No"])
 print("Marks:", student["Marks"])
 """
+# Practical No. 10
 
+# Question: Implementing List Comprehensions for Efficient Data Processing .
+
+# Aim: To write a Python program using list comprehension to generate the squares of numbers.
+
+# Program:
+"""
+numbers = [1, 2, 3, 4, 5]
+
+squares = [x * x for x in numbers]
+
+print("Original List:", numbers)
+print("Squares:", squares)
+"""
 # Practical No. 11
 
 # Question: Implementing Exception Handling to Handle Errors Gracefully.
