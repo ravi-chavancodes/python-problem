@@ -1,4 +1,5 @@
 # Hello World Program
+"""
 print("Hello World")
 
 a = 10
@@ -8,7 +9,7 @@ print("Addition:", a + b)
 print("Subtraction:", a - b)
 print("Multiplication:", a * b)
 print("Division:", a / b)
-
+"""
 # Practical No. 2
 
 #Question:
@@ -17,20 +18,19 @@ print("Division:", a / b)
 #Aim:
 #To write a Python program using conditional statements and loops. 
 
-# Program:
-"""
-num = int(input("Enter a number: "))
+n = int(input("Enter a number: "))
 
-if num % 2 == 0:
-    print(num, "is Even")
+if n > 0:
+    print("Positive")
+elif n < 0:
+    print("Negative")
 else:
-    print(num, "is Odd")
+    print("Zero")
 
-print("Numbers from 1 to 10 are:")
+print("Numbers from 1 to", n)
 
-for i in range(1, 11):
+for i in range(1, n + 1):
     print(i)
-"""
 
 # 3q - writing functions to perform basic calculations eg - factorial , ffibonacci
 #a.factorial 
